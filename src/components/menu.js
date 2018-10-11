@@ -1,20 +1,25 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/css/bootstrap-theme.css';
 
 const Menu = () => (
     <div 
       style={{
+        marginLeft: '5rem',
         paddingTop: '5rem',
+        width: '100%',
+        fontFamily: 'Helvetica',
+        fontSize: '4rem',
     }}
     >
 
       <ul 
         style={{ 
-          listStyle: none,
+          width: '100%',
+          listStyle: 'none',
           display: 'flex',
+          flexDirection: 'column',
           justifyContent: 'space-evently',
+          textDecoration: 'none',
       }}
       >
         <li><Link to="/about">About</Link></li>

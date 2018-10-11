@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <h1>
+    <h1 style={{ width: '100%' }}>
       <span style={{ color:"#fb9999" }}>J</span>
       <span style={{ color:"#fc9ca7" }}>a</span>
       <span style={{ color:"#fc9fb4" }}>c</span>
