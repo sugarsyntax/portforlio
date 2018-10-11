@@ -5,7 +5,7 @@ const Menu = () => (
     <div 
       style={{
         marginLeft: '5rem',
-        paddingTop: '5rem',
+        paddingTop: '0.5rem',
         width: '100%',
         fontFamily: 'Helvetica',
         fontSize: '4rem',

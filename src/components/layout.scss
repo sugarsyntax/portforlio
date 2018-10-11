@@ -194,7 +194,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  color: #b3b177;
   font-family: georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
@@ -216,6 +216,7 @@ img {
   margin-bottom: 1.45rem;
 }
 h1 {
+  max-width: 100%!important;
   display: block;
   margin-left: 0;
   margin-right: 0;
@@ -225,8 +226,8 @@ h1 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 9.5rem;
-  letter-spacing: 0.1rem;
+  font-size: 10rem;
+  letter-spacing: 1.1rem;
 }
 h2 {
   margin-left: 0;
@@ -506,13 +507,15 @@ th {
 li {
   margin-bottom: calc(1.45rem / 2);
   text-decoration: none;
+  color: #b3b177;
 }
 ol li {
   padding-left: 0;
 }
 ul li {
   padding: 5rem 2rem 5rem 2rem;
-  text-decoration: none;
+  text-decoration: none; 
+  color: #b3b177;
 }
 li > ol {
   margin-left: 1.45rem;
@@ -614,6 +617,7 @@ pre tt:after {
 }
 a {
   text-decoration: none;
+  color: #b3b177;
 }
 @media only screen and (max-width: 480px) {
   html {
